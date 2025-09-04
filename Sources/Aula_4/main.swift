@@ -1,3 +1,5 @@
 import Foundation
 
-print("Aula 4 de Swift!!")
+let carro = Carro1 (marca: "Ford", ano: 2022, numeroDePortas: 0)
+carro.numeroDePortas = 4
+carro.apresentar()
